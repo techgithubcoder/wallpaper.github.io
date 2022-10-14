@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+position: relative;
+
+
+}
+.main{
+    
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    background-image: url("images/23.JPG");    
+    position: absolute;
+    
+}
+
+.container{
+    width: 90vw;
+    height: 90vh;
+    border: 5px green solid;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 10px -10px 10px black;    
+    position: absolute;
+    z-index: 12;
+}
+
+#img{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    
+}
+
+#previous{
+    position: absolute;
+    bottom: 15px;
+    padding-left: 15px;
+}
+
+#next{
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    padding-right: 15px;
+}
